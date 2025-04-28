@@ -1,34 +1,12 @@
-# task_management
+# React + Vite
 
- building a Task Manager Application that enables users to manage their tasks effectively.
- It will include features like task creation, editing, filtering, and sorting, along with a clean UI built using Material UI.
- Core Features
-1. Task Management
-Create tasks with title, description, due date, priority (Low/Medium/High), and status (To Do/In Progress/Completed)
-Edit existing tasks
-Delete tasks
-Mark tasks as complete/incomplete
-2. Task Organization
-Filter tasks by status, priority, and due date
-Sort tasks by created date, due date, or priority
-Search tasks by title or description
-3. User Interface
-Use Material UI components for a polished, modern interface
-Implement responsive design for both desktop and mobile
-Visual cues for task priority and status
-Loading states and error handling where appropriate
-⚙️ Technical Requirements
-Functional components with React Hooks
-State management using the Context API
-Consistent styling using Material UI theming
-Form validation for all inputs
-Task data persistence via local Storage
-Proper error handling throughout the app
-At least one custom hook
-Clean, maintainable code architecture
-🚀 Stretch Goals (Optional)
-Task categories/tags
-Drag-and-drop support to change task status
-Data visualization (tasks by status/priority)
-Simulated user authentication
-Notifications for tasks nearing their due dates
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
